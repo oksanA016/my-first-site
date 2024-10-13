@@ -1,0 +1,296 @@
+/* base style */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+li,
+ul,
+p,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 156px;
+}
+/* header */
+.header-logo {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  width: 1440px;
+  height: 72px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.header-logo-path {
+  color: rgb(77, 90, 229);
+}
+.header {
+  padding-top: 24px;
+  padding-left: 156px;
+  padding-bottom: 24px;
+  padding-right: 156px;
+}
+.header-adress {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.header-navigation {
+  position: relative;
+  width: 261px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40;
+  padding: 0px;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
+}
+.header-adress-contact {
+  display: flex;
+  position: absolute;
+
+  left: 1133px;
+  top: 24px;
+}
+.header-adress {
+  color: rgb(67, 68, 85);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+/*main*/
+.main-hero {
+  background: rgb(46, 47, 66);
+  padding: 188px 0;
+}
+.main-hero-content {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
+}
+.main-hero-content-btn {
+  position: relative;
+  width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(77, 90, 229);
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+/* h2*/
+.info-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 8px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+}
+.info-list-item-title {
+  position: static;
+  width: 264px;
+  height: 24px;
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.info {
+  position: relative;
+  width: 264px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8;
+  padding: 0px;
+}
+
+.text-info {
+  color: rgb(67, 68, 85);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.photo-logo {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.logo-name {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.logo-name-profession {
+  color: rgb(67, 68, 85);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.logo-portfolio {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.team-item-list {
+  display: flex;
+  text-align: center;
+  gap: 24px;
+}
+.team-item {
+  display: flex;
+  position: static;
+  width: 264px;
+  height: 260px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.team-item-list {
+  width: calc((100%-24px * 3) / 4);
+}
+.logo-list {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.title {
+  color: rgb(67, 68, 85);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.portfolio-list {
+  display: flex;
+  margin: 0 auto;
+}
+.footer {
+  background: rgb(46, 47, 66);
+}
+.footer-logo {
+  color: rgb(244, 244, 253);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.footer-logo-path {
+  color: rgb(77, 90, 229);
+}
+.footer-text {
+  color: rgb(244, 244, 253);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.logo-portfolio {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
+}
